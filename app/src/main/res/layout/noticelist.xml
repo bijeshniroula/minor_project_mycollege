@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+
+    <!--text field for the list of the college!-->
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticelistView" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" New Admission Opens at Liverpool College  "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        android:id="@+id/admissions"/>
+
+
+    <!--2-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Orientation program for new students of Grade XI is going to be organized at Nepal Academy Hall, Kamaladi, Kathmandu. Gate Pass is MUST for attending the program.
+
+Wednesday, July 16, 2014 11:30 am
+Nepal Academy Hall"
+        android:textAlignment="center"
+        android:background="@drawable/back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" International Literacy Day-2015 and the 36th National Education Day-2072 were observed today by organising various programmes across the country. "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+       />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" St. Xavier's College announces admissions for grade XI Science 2015 (2072) "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" The Ministry of Education has announced it will start awarding the best performing campuses also on the day of National Education Day from this year. "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" Admission Open for TU B.Sc. CSIT-BSc CSIT colleges in Nepal "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" The British Embassy on Tuesday publicized the names of the winners of 2015/2016 Chevening Scholarships "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" According HSEB, a total of 37,991 students, who had appeared in the examinations under the regular category, 27,227 have passed the exams "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text=" According HSEB, a total of 37,991 students, who had appeared in the examinations under the regular category, 27,227 have passed the exams "
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,291 @@
+<android.support.v4.widget.DrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!--main vertical layout!-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:background="#EEEEEE"
+        >
+
+
+        <!-- 2 horizontl layout!-->
+        <!--first horizonta!-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/upper"
+            android:weightSum="2"
+            android:baselineAligned="false"
+            android:background="#EEEEEE">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/upper1"
+                android:weightSum="3"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/upper1up">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/newcol"
+                        android:id="@+id/colz"
+                        />
+
+                </LinearLayout>  <!--upper1up close!-->
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/upper1down">
+
+
+                    <TextView
+
+
+                        android:text="COLLEGES"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.15"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="50dp"
+
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#030303"
+
+                        android:id="@+id/colleges" />
+
+                </LinearLayout>  <!--upper1down close!-->
+               <!-- <View
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="0.5dp"
+                    android:background="@android:color/darker_gray"/>-->
+
+
+            </LinearLayout> <!--upper1 close!-->
+
+
+
+
+
+            <!--uppere2 open!-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/upper2"
+                android:weightSum="3"
+                android:background="#EEEEEE">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/upper2up">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_marginBottom="10dp"
+
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/faccap"
+                        android:id="@+id/faccap"
+                        />
+
+                </LinearLayout>  <!--upper2up close!-->
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/upper2down">
+
+
+                    <TextView
+
+
+                        android:text="FACULTIES"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.15"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="50dp"
+
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#030303"
+
+                        android:id="@+id/facultietext" />
+
+                </LinearLayout>  <!--upper1down close!-->
+
+
+
+            </LinearLayout>      <!--upper2 close!-->
+
+
+
+
+        </LinearLayout>    <!--upper close!-->
+
+        <!--second horizontal!-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/lower"
+            android:weightSum="2"
+            android:baselineAligned="false">
+
+
+            <!--lower inside horizontal!-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/lower1"
+                android:weightSum="3"
+                android:background="#EEEEEE">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/lower2up">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:src="@drawable/goo"
+                        android:id="@+id/navigate"
+                        />
+
+                </LinearLayout>  <!--lower1up close!-->
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/lower1down">
+
+
+                    <TextView
+
+
+                        android:text="MY-MAP"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.15"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="50dp"
+
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#030303"
+
+                        android:id="@+id/favourites" />
+
+                </LinearLayout>  <!--lower1down close!-->
+
+
+
+            </LinearLayout>      <!--lower1 close!-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/lower2">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="230dp">
+                           <ImageView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:src="@drawable/location"
+                               android:layout_marginBottom="70dp"
+                               />
+
+
+                       </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+        <!--main layout close!-->
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.DrawerLayout>
